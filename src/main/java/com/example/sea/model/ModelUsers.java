@@ -15,24 +15,6 @@ public class ModelUsers implements Serializable {
     private String nome;
     private String email;
     private String senha;
-    private String cpf;
-    private String dataNascimento;
-    
-    public String getCpf() {
-		return cpf;
-	}
-
-	public void setCpf(String cpf) {
-		this.cpf = cpf;
-	}
-	
-	public String getDataNascimento() {
-		return dataNascimento;
-	}
-
-	public void setDataNascimento(String dataNascimento) {
-		this.dataNascimento = dataNascimento;
-	}
 
 	public Integer getIdUsers() {
         return idUsers;
