@@ -1,6 +1,7 @@
 package com.example.sea.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 
 import java.io.Serializable;
 
@@ -13,6 +14,7 @@ public class ModelUsers implements Serializable {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Integer idUsers;
     private String nome;
+    @Email
     private String email;
     private String senha;
     private String cpf;
